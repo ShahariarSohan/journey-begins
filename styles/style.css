@@ -47,7 +47,7 @@
   font-weight: 800;
 }
 .banner-subtitle {
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(13, 19, 33);
 }
 .banner-btn {
@@ -77,7 +77,39 @@ main {
 .development-subtitle {
   width: 900px;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   margin: 30px auto;
   color: rgb(13, 19, 33);
+}
+.development-category {
+  margin: 100px auto 150px auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.development-content {
+  width: 350px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.content-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+}
+.content-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+}
+a :hover {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
 }
