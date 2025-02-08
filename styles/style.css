@@ -107,7 +107,8 @@ main {
   font-weight: 400;
   color: rgb(13, 19, 33);
 }
-a :hover {
+.link button:hover,
+.skill-link:hover {
   cursor: pointer;
 }
 .link {
@@ -117,4 +118,33 @@ a :hover {
 .inspiration-video {
   width: 1000px;
   margin: auto;
+}
+/* my-current-target */
+.current-target {
+  margin: 150px auto;
+}
+.skill-content {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.skill-subtitle {
+  font-size: 14px;
+  color: rgb(13, 19, 33);
+}
+.skill-link {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(13, 19, 33);
+}
+.skills {
+  width: 1000px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
