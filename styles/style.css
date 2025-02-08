@@ -172,7 +172,42 @@ main {
 }
 /* support section styles */
 .support {
+  color: white;
   background-image: url("../assets/handshake.jpg");
   background-size: cover;
+  background-position: center;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.input-text {
+  width: 400px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  opacity: 0.8;
+}
+.submit-btn {
+  font-weight: 600;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  opacity: 0.8;
 }
