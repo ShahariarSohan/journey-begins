@@ -67,7 +67,6 @@
 main {
   width: 1200px;
   margin: 100px auto;
-  height: 500px;
 }
 /* web development styles */
 .primary-title {
@@ -172,6 +171,7 @@ main {
 }
 /* support section styles */
 .support {
+  margin-bottom: 100px;
   color: white;
   background-image: url("../assets/handshake.jpg");
   background-size: cover;
@@ -210,4 +210,25 @@ main {
   border: none;
   border-radius: 2px;
   opacity: 0.8;
+}
+/* footer style */
+footer {
+  background: rgb(250, 248, 248);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
