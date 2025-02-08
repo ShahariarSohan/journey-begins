@@ -170,3 +170,9 @@ main {
   align-items: flex-start;
   gap: 20px;
 }
+/* support section styles */
+.support {
+  background-image: url("../assets/handshake.jpg");
+  background-size: cover;
+  height: 300px;
+}
