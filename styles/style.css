@@ -70,11 +70,11 @@ main {
   height: 500px;
 }
 /* web development styles */
-.development-title {
+.primary-title {
   text-align: center;
   font-size: 28px;
 }
-.development-subtitle {
+.primary-subtitle {
   width: 900px;
   text-align: center;
   font-size: 14px;
@@ -112,4 +112,9 @@ a :hover {
 }
 .link {
   text-decoration: none;
+}
+/* inspiration section */
+.inspiration-video {
+  width: 1000px;
+  margin: auto;
 }
