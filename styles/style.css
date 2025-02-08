@@ -29,7 +29,7 @@
 }
 /* banner styles */
 .banner {
-  height: 500px;
+  height: 550px;
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
 }
@@ -48,6 +48,7 @@
 }
 .banner-subtitle {
   font-size: 13px;
+  color: rgb(13, 19, 33);
 }
 .banner-btn {
   color: rgb(255, 255, 255);
@@ -66,7 +67,17 @@
 main {
   width: 1200px;
   margin: 100px auto;
-  background-image: url("../assets/handshake.jpg");
   height: 500px;
-  background-size: cover;
+}
+/* web development styles */
+.development-title {
+  text-align: center;
+  font-size: 28px;
+}
+.development-subtitle {
+  width: 900px;
+  text-align: center;
+  font-size: 13px;
+  margin: 30px auto;
+  color: rgb(13, 19, 33);
 }
