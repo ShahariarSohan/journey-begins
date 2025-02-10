@@ -241,3 +241,23 @@ footer {
   align-items: center;
   gap: 10px;
 }
+.hide {
+  display: none;
+}
+/* responsive layout */
+
+/* small device */
+@media screen and (max-width: 576px) {
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* medium devices */
+@media screen and (min-width: 577px) and (max-width: 1200px) {
+  .navbar {
+    width: 100%;
+  }
+}
