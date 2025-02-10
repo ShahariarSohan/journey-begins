@@ -269,6 +269,11 @@ footer {
   .second-category {
     flex-direction: column;
   }
+  .inspiration-video {
+    width: 90vw;
+    height: 300px;
+    margin: 10px auto;
+  }
 }
 
 /* medium devices */
@@ -294,6 +299,11 @@ footer {
   .second-category {
     flex-direction: column;
   }
+  .inspiration-video {
+    width: 90vw;
+    height: 400px;
+    margin: 10px auto;
+  }
 }
 
 /* large devices */
@@ -304,6 +314,20 @@ footer {
   .navbar {
     width: 100%;
   }
+  .primary-subtitle,
+  .primary-title {
+    width: 100vw;
+    margin: 0;
+    height: auto;
+  }
+  .development-category {
+    width: 100vw;
+  }
+  .inspiration-video {
+    width: 90vw;
+    height: 400px;
+    margin: 10px auto;
+  }
 }
 /* x-large devices */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -312,5 +336,18 @@ footer {
   }
   .navbar {
     width: 100%;
+  }
+  .inspiration-video {
+    width: 90vw;
+    height: 500px;
+    margin: 10px auto;
+  }
+}
+/* xxl devices */
+@media screen and (min-width: 1201px) and (max-width: 2000px) {
+  .inspiration-video {
+    width: 90vw;
+    height: 600px;
+    margin: 10px auto;
   }
 }
