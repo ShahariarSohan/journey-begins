@@ -274,6 +274,15 @@ footer {
     height: 300px;
     margin: 10px auto;
   }
+  .skills {
+    width: 90%;
+    flex-direction: column;
+  }
+  .skill-content {
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+  }
 }
 
 /* medium devices */
@@ -304,6 +313,15 @@ footer {
     height: 400px;
     margin: 10px auto;
   }
+  .skills {
+    width: 100%;
+    flex-direction: column;
+  }
+  .skill-content {
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+  }
 }
 
 /* large devices */
@@ -327,6 +345,15 @@ footer {
     width: 90vw;
     height: 400px;
     margin: 10px auto;
+  }
+  .skills {
+    width: 100%;
+    flex-direction: column;
+  }
+  .skill-content {
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
   }
 }
 /* x-large devices */
